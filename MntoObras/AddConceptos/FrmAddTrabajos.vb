@@ -734,6 +734,7 @@ Public Class FrmAddTrabajos
         mblnFacturable = blnFacturable
 
         Dim frm As New Form
+
         frm = Me
 
         If Length(StrIDMoneda) > 0 Then
@@ -747,6 +748,7 @@ Public Class FrmAddTrabajos
             Me.txtImpTotalVtaA.DecimalDigits = DtMoneda.NDecimalesImporte
             Me.txtMargenTrabajo.DecimalDigits = DtMoneda.NDecimalesImporte
         End If
+
 
         frm.ShowDialog(OwnerForm) 'Para que no traiga todos los registros
 
@@ -827,6 +829,7 @@ Public Class FrmAddTrabajos
         If Length(mstrIDTipoObra) > 0 Then
             e.Filter.Add(New StringFilterItem("IDTipoObra", mstrIDTipoObra))
         End If
+        e.Filter.Add(New StringFilterItem("IDTipoTrabajo", "PT"))
     End Sub
 
     Protected Overridable Sub AdvSubTipoTrabajo_SetPredefinedFilter(ByVal sender As Object, ByVal e As Engine.UI.AdvSearchFilterEventArgs) Handles AdvSubTipoTrabajo.SetPredefinedFilter
@@ -879,4 +882,7 @@ Public Class FrmAddTrabajos
         End If
     End Sub
 
+    Private Sub AdvTipoTrabajo_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AdvTipoTrabajo.Leave
+        txtCodTrabajo.Text = "PT1"
+    End Sub
 End Class

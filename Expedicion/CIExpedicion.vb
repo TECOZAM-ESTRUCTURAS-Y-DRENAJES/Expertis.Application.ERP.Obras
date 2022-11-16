@@ -148,7 +148,7 @@ Public Class CIExpedicion
         '
         'Grid
         '
-        Me.Grid.CheckFields = New Solmicro.Expertis.Engine.UI.CheckFields(New Solmicro.Expertis.Engine.UI.CheckField() {New Solmicro.Expertis.Engine.UI.CheckField("CantidadMarca1", "Cantidad", 0, "Pendiente")})
+        Me.Grid.CheckFields = New Solmicro.Expertis.Engine.UI.CheckFields(New Solmicro.Expertis.Engine.UI.CheckField() {New Solmicro.Expertis.Engine.UI.CheckField("CantidadMarca1", "Cantidad", Solmicro.Expertis.Engine.UI.CheckFieldType.Numeric, "Pendiente")})
         Grid_DesignTimeLayout.LayoutString = resources.GetString("Grid_DesignTimeLayout.LayoutString")
         Me.Grid.DesignTimeLayout = Grid_DesignTimeLayout
         Me.Grid.EntityName = "ObraMaterial"
@@ -382,7 +382,7 @@ Public Class CIExpedicion
         '
         Me.lblTrabajo.Location = New System.Drawing.Point(8, 52)
         Me.lblTrabajo.Name = "lblTrabajo"
-        Me.lblTrabajo.Size = New System.Drawing.Size(51, 13)
+        Me.lblTrabajo.Size = New System.Drawing.Size(50, 13)
         Me.lblTrabajo.TabIndex = 95
         Me.lblTrabajo.Tag = ""
         Me.lblTrabajo.Text = "Trabajo"
@@ -430,7 +430,7 @@ Public Class CIExpedicion
         'CIExpedicion
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(6, 14)
-        Me.CheckFields = New Solmicro.Expertis.Engine.UI.CheckFields(New Solmicro.Expertis.Engine.UI.CheckField() {New Solmicro.Expertis.Engine.UI.CheckField("CantidadMarca1", "Cantidad", 0, "Pendiente")})
+        Me.CheckFields = New Solmicro.Expertis.Engine.UI.CheckFields(New Solmicro.Expertis.Engine.UI.CheckField() {New Solmicro.Expertis.Engine.UI.CheckField("CantidadMarca1", "Cantidad", Solmicro.Expertis.Engine.UI.CheckFieldType.Numeric, "Pendiente")})
         Me.ClientSize = New System.Drawing.Size(696, 509)
         Me.EntityName = "ObraMaterial"
         Me.KeyField = "IDLineaMaterial"
