@@ -1,0 +1,768 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB5C0D70-9796-4852-8588-1148F0F464B9}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Expertis.Application.ERP.Obras</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Text</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Solmicro.Expertis.Application.ERP.Obras</RootNamespace>
+    <StartupObject>Solmicro.Expertis.Application.ERP.Obras.%28Ninguno%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\..\Bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.CommonClasses, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.GlobalActions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.GlobalActionsOffice, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Application.ERP.XCalendar">
+      <Name>Expertis.Application.ERP.XCalendar</Name>
+      <HintPath>..\..\..\Bin\Expertis.Application.ERP.XCalendar.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.BusinessEnum">
+      <Name>Expertis.Business.BusinessEnum</Name>
+      <HintPath>..\..\..\Bin\Expertis.Business.BusinessEnum.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.ClasesTecozam, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Compra, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\Expertis.Business.Compra.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.CRM">
+      <Name>Expertis.Business.CRM</Name>
+      <HintPath>..\..\..\Bin\Expertis.Business.CRM.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Financiero, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.General, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Mnto">
+      <Name>Expertis.Business.Mnto</Name>
+      <HintPath>..\..\..\Bin\Expertis.Business.Mnto.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Negocio">
+      <Name>Expertis.Business.Negocio</Name>
+      <HintPath>..\..\..\Bin\Expertis.Business.Negocio.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Obra">
+      <Name>Expertis.Business.Obra</Name>
+      <HintPath>..\..\..\bin\Expertis.Business.Obra.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.PlanificadorRecursos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.SEPA, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.BE.BusinessEngine">
+      <Name>Expertis.Engine.BE.BusinessEngine</Name>
+      <HintPath>..\..\..\Bin\Expertis.Engine.BE.BusinessEngine.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.Global">
+      <Name>Expertis.Engine.Global</Name>
+      <HintPath>..\..\..\Bin\Expertis.Engine.Global.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.CommonClasses">
+      <Name>Expertis.Engine.UI.CommonClasses</Name>
+      <HintPath>..\..\..\Bin\Expertis.Engine.UI.CommonClasses.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.Resources">
+      <Name>Expertis.Engine.UI.Resources</Name>
+      <HintPath>..\..\..\Bin\Expertis.Engine.UI.Resources.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.WinControls">
+      <Name>Expertis.Engine.UI.WinControls</Name>
+      <HintPath>..\..\..\Bin\Expertis.Engine.UI.WinControls.dll</HintPath>
+      <AssemblyFolderKey>hklm\expertis.engine</AssemblyFolderKey>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Data.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.Schedule.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3, Version=3.5.105.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Janus.Windows.GridEX" />
+    <Import Include="Janus.Windows.UI" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Solmicro.Expertis.Application.ERP.CommonClasses" />
+    <Import Include="Solmicro.Expertis.Application.ERP.GlobalActions" />
+    <Import Include="Solmicro.Expertis.Application.ERP.GlobalActionsOffice" />
+    <Import Include="Solmicro.Expertis.Business.BusinessEnum" />
+    <Import Include="Solmicro.Expertis.Business.Financiero" />
+    <Import Include="Solmicro.Expertis.Business.General" />
+    <Import Include="Solmicro.Expertis.Business.Negocio" />
+    <Import Include="Solmicro.Expertis.Business.Obra" />
+    <Import Include="Solmicro.Expertis.Business.PlanificadorRecursos" />
+    <Import Include="Solmicro.Expertis.Business.SEPA" />
+    <Import Include="Solmicro.Expertis.Engine" />
+    <Import Include="Solmicro.Expertis.Engine.UI" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consultas\CIActualizarPrecios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIActualizarStocks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CICalendarioTareas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CICertificacionMediciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CICertificacionProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CICertificacionTrabajos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIControlCostes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CICopiaTipoTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIEstPrevMat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIEstPrevReal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIHitosPeriodificables.Designer.vb">
+      <DependentUpon>CIHitosPeriodificables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CIHitosPeriodificables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CITrabajosPeriodificables.Designer.vb">
+      <DependentUpon>CITrabajosPeriodificables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\CITrabajosPeriodificables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmHitosPeriodificadosPropuestos.Designer.vb">
+      <DependentUpon>frmHitosPeriodificadosPropuestos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmHitosPeriodificadosPropuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmInformeCostesLaboral.Designer.vb">
+      <DependentUpon>frmInformeCostesLaboral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmInformeCostesLaboral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmVincularTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expedicion\CIExpedicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\CIFacturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmTrabajosPeriodificadosPropuestos.Designer.vb">
+      <DependentUpon>frmTrabajosPeriodificadosPropuestos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmTrabajosPeriodificadosPropuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmGetPorcentaje.Designer.vb">
+      <DependentUpon>frmGetPorcentaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\frmGetPorcentaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarCompras\CIGenerarCompras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidaciones\CILiquidacionGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidaciones\CILiquidacionVarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIObraControlAlbaranCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIObras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIProyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIResumenEconomicoTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CISeleccionCapitulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CITareasObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CITrabajosOperario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CITrabajosOperarioTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\CIVencimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddCentros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddCertificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddIncremento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddMateriales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddMediciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddMOD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddOficioOperario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\FrmAddTrabajos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddTrabajosIncremento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\AddConceptos\frmAddVarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\frmAnalitica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidaciones\frmBancoPropio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoCalendarioObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConfiguraInforme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidaciones\frmContabilizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidaciones\frmDescontabilizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\frmDesgloseImportesTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmDetalleParteTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\frmEstructuraObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmFacturacionProvisional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmFacturasGeneradas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\Avances\frmGeneraPeriodosAvance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\FrmImpEstructura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\frmMedicionesCertificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\FrmMntoTareaTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\FrmNewTrabajoTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\FrmProcesoCertificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\Avances\frmRehacerPeriodosAvance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\frmSeleccionInformeCertificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\frmStockActualizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoBonosTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoCertificacionMedicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoCertificacionTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoCopiaObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoGrupoCaracteristica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObras\MntoObras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MntoObraTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ObrasGeneral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Consultas\CIActualizarPrecios.resx">
+      <DependentUpon>CIActualizarPrecios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIActualizarStocks.resx">
+      <DependentUpon>CIActualizarStocks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CICalendarioTareas.resx">
+      <DependentUpon>CICalendarioTareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CICertificacionMediciones.resx">
+      <DependentUpon>CICertificacionMediciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CICertificacionProduccion.resx">
+      <DependentUpon>CICertificacionProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CICertificacionTrabajos.resx">
+      <DependentUpon>CICertificacionTrabajos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIControlCostes.resx">
+      <DependentUpon>CIControlCostes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CICopiaTipoTrabajo.resx">
+      <DependentUpon>CICopiaTipoTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIEstPrevMat.resx">
+      <DependentUpon>CIEstPrevMat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIEstPrevReal.resx">
+      <DependentUpon>CIEstPrevReal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIHitosPeriodificables.resx">
+      <DependentUpon>CIHitosPeriodificables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CITrabajosPeriodificables.resx">
+      <DependentUpon>CITrabajosPeriodificables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmHitosPeriodificadosPropuestos.resx">
+      <DependentUpon>frmHitosPeriodificadosPropuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmInformeCostesLaboral.resx">
+      <DependentUpon>frmInformeCostesLaboral.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmTrabajosPeriodificadosPropuestos.resx">
+      <DependentUpon>frmTrabajosPeriodificadosPropuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmVincularTrabajo.resx">
+      <DependentUpon>frmVincularTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expedicion\CIExpedicion.resx">
+      <DependentUpon>CIExpedicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\CIFacturacion.resx">
+      <DependentUpon>CIFacturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmGetPorcentaje.resx">
+      <DependentUpon>frmGetPorcentaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarCompras\CIGenerarCompras.resx">
+      <DependentUpon>CIGenerarCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidaciones\CILiquidacionGastos.resx">
+      <DependentUpon>CILiquidacionGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidaciones\CILiquidacionVarios.resx">
+      <DependentUpon>CILiquidacionVarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIObraControlAlbaranCompra.resx">
+      <DependentUpon>CIObraControlAlbaranCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIObras.resx">
+      <DependentUpon>CIObras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIProyecto.resx">
+      <DependentUpon>CIProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIResumenEconomicoTrabajo.resx">
+      <DependentUpon>CIResumenEconomicoTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CISeleccionCapitulos.resx">
+      <DependentUpon>CISeleccionCapitulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CITareasObra.resx">
+      <DependentUpon>CITareasObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CITrabajosOperario.resx">
+      <DependentUpon>CITrabajosOperario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CITrabajosOperarioTarea.resx">
+      <DependentUpon>CITrabajosOperarioTarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\CIVencimiento.resx">
+      <DependentUpon>CIVencimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddCentros.resx">
+      <DependentUpon>frmAddCentros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddCertificacion.resx">
+      <DependentUpon>frmAddCertificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddGastos.resx">
+      <DependentUpon>frmAddGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddIncremento.resx">
+      <DependentUpon>frmAddIncremento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddMateriales.resx">
+      <DependentUpon>frmAddMateriales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddMediciones.resx">
+      <DependentUpon>frmAddMediciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddMOD.resx">
+      <DependentUpon>frmAddMOD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddOficioOperario.resx">
+      <DependentUpon>frmAddOficioOperario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\FrmAddTrabajos.resx">
+      <DependentUpon>FrmAddTrabajos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddTrabajosIncremento.resx">
+      <DependentUpon>frmAddTrabajosIncremento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\AddConceptos\frmAddVarios.resx">
+      <DependentUpon>frmAddVarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\frmAnalitica.resx">
+      <DependentUpon>frmAnalitica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidaciones\frmBancoPropio.resx">
+      <DependentUpon>frmBancoPropio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoCalendarioObra.resx">
+      <DependentUpon>MntoCalendarioObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConfiguraInforme.resx">
+      <DependentUpon>FrmConfiguraInforme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidaciones\frmContabilizar.resx">
+      <DependentUpon>frmContabilizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidaciones\frmDescontabilizar.resx">
+      <DependentUpon>frmDescontabilizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\frmDesgloseImportesTrabajo.resx">
+      <DependentUpon>frmDesgloseImportesTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmDetalleParteTarea.resx">
+      <DependentUpon>FrmDetalleParteTarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\frmEstructuraObra.resx">
+      <DependentUpon>frmEstructuraObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmFacturacionProvisional.resx">
+      <DependentUpon>frmFacturacionProvisional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmFacturasGeneradas.resx">
+      <DependentUpon>frmFacturasGeneradas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\Avances\frmGeneraPeriodosAvance.resx">
+      <DependentUpon>frmGeneraPeriodosAvance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\FrmImpEstructura.resx">
+      <DependentUpon>FrmImpEstructura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\frmMedicionesCertificacion.resx">
+      <DependentUpon>frmMedicionesCertificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\FrmMntoTareaTrabajo.resx">
+      <DependentUpon>FrmMntoTareaTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\FrmNewTrabajoTarea.resx">
+      <DependentUpon>FrmNewTrabajoTarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\FrmProcesoCertificacion.resx">
+      <DependentUpon>FrmProcesoCertificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\Avances\frmRehacerPeriodosAvance.resx">
+      <DependentUpon>frmRehacerPeriodosAvance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\frmSeleccionInformeCertificacion.resx">
+      <DependentUpon>frmSeleccionInformeCertificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\frmStockActualizado.resx">
+      <DependentUpon>frmStockActualizado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="MntoBonosTrabajo.resx">
+      <DependentUpon>MntoBonosTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoCertificacionMedicion.resx">
+      <DependentUpon>MntoCertificacionMedicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoCertificacionTrabajo.resx">
+      <DependentUpon>MntoCertificacionTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoCopiaObra.resx">
+      <DependentUpon>MntoCopiaObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoGrupoCaracteristica.resx">
+      <DependentUpon>MntoGrupoCaracteristica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObras\MntoObras.resx">
+      <DependentUpon>MntoObras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MntoObraTarea.resx">
+      <DependentUpon>MntoObraTarea.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

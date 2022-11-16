@@ -1,0 +1,154 @@
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.Obras.dll
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.Obras.pdb
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\ResolveAssemblyReference.cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIActualizarPrecios.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIActualizarStocks.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICalendarioTareas.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionMediciones.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionProduccion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionTrabajos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIControlCostes.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICopiaTipoTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIEstPrevMat.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIEstPrevReal.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIHitosPeriodificables.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosPeriodificables.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmHitosPeriodificadosPropuestos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmTrabajosPeriodificadosPropuestos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmVincularTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIExpedicion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIFacturacion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmGetPorcentaje.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIGenerarCompras.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CILiquidacionGastos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CILiquidacionVarios.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIObraControlAlbaranCompra.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIObras.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIProyecto.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIResumenEconomicoTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CISeleccionCapitulos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITareasObra.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosOperario.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosOperarioTarea.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIVencimiento.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddCentros.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddCertificacion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddGastos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddIncremento.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMateriales.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMediciones.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMOD.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddOficioOperario.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmAddTrabajos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddTrabajosIncremento.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddVarios.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAnalitica.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmBancoPropio.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCalendarioObra.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmConfiguraInforme.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmContabilizar.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmDescontabilizar.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmDesgloseImportesTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmDetalleParteTarea.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmEstructuraObra.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmFacturacionProvisional.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmFacturasGeneradas.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmGeneraPeriodosAvance.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmImpEstructura.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmMedicionesCertificacion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmMntoTareaTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmNewTrabajoTarea.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmProcesoCertificacion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmRehacerPeriodosAvance.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmSeleccionInformeCertificacion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmStockActualizado.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoBonosTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCertificacionMedicion.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCertificacionTrabajo.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCopiaObra.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoGrupoCaracteristica.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoObras.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoObraTarea.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.vbproj.GenerateResource.Cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.dll.licenses
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.dll
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\Bin\Expertis.Application.ERP.Obras.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\Bin\Expertis.Application.ERP.Obras.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIActualizarPrecios.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIActualizarStocks.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICalendarioTareas.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionMediciones.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionProduccion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICertificacionTrabajos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIControlCostes.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CICopiaTipoTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIEstPrevMat.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIEstPrevReal.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIHitosPeriodificables.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosPeriodificables.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmHitosPeriodificadosPropuestos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmTrabajosPeriodificadosPropuestos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmVincularTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIExpedicion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIFacturacion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmGetPorcentaje.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIGenerarCompras.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CILiquidacionGastos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CILiquidacionVarios.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIObraControlAlbaranCompra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIObras.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIProyecto.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIResumenEconomicoTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CISeleccionCapitulos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITareasObra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosOperario.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CITrabajosOperarioTarea.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.CIVencimiento.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddCentros.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddCertificacion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddGastos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddIncremento.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMateriales.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMediciones.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddMOD.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddOficioOperario.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmAddTrabajos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddTrabajosIncremento.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAddVarios.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmAnalitica.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmBancoPropio.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCalendarioObra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmConfiguraInforme.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmContabilizar.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmDescontabilizar.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmDesgloseImportesTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmDetalleParteTarea.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmEstructuraObra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmFacturacionProvisional.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmFacturasGeneradas.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmGeneraPeriodosAvance.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmImpEstructura.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmMedicionesCertificacion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmMntoTareaTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmNewTrabajoTarea.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.FrmProcesoCertificacion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmRehacerPeriodosAvance.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmSeleccionInformeCertificacion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmStockActualizado.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoBonosTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCertificacionMedicion.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCertificacionTrabajo.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoCopiaObra.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoGrupoCaracteristica.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoObras.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.MntoObraTarea.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.dll.licenses
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Expertis.Application.ERP.Obras.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.Obras.dll
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.Obras.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.Obras.dll.config
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.Obras\obj\Release\Solmicro.Expertis.Application.ERP.Obras.frmInformeCostesLaboral.resources

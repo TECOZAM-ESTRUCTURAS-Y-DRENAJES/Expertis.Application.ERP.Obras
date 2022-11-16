@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="UiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ShowFilterPanel.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAEBAAAAEACABoBQAAhgAAABAQAAABACAAaAQAAO4FAAAYGAAAAQAIAMgGAABWCgAAGBgAAAEA
+        IACICQAAHhEAACAgAAABAAgAqAgAAKYaAAAgIAAAAQAgAKgQAABOIwAAMDAAAAEACACoDgAA9jMAADAw
+        AAABACAAqCUAAJ5CAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wD3kQAA/8yZANbT0wD/rT0A/97eANa2tgD/zMwA/+7uANbDwwDrhQAA/5kAAP/m5gD/1tYA1svLAP/1
+        9QD/0dEA//v7AP/q6gDWx8cA1r+/ANa6ugD/4+MA/9vbANbW1gDWzs4A//39AP/5+QD/8/MA//DwAP/s
+        7AD/6OgA/+HhAP/Z2QD/1NQA/8/PAP/l5QD/4OAA/9zcAP/X1wD/0tIAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAAAAAwlJSUlFyYGGCgjJAgMAAAMExMTEw0lIQYYDikk
+        DAAADB4eHgkfICUhBiIOEQwAAAwQEBAdHgkgJSYnKCkMAAAMEhISHBAeHw0XBiIjDAAADAEBARscHQkT
+        JSYYDgwAAAwBAQEBEhAeEyUmGA4MAAAMAQEBARIQHhMlJhgODAAADAEBAQESEB4TJSYYDgwAAAwZGRkZ
+        BBoPFAoVFgcMAAAMDAsLCwsLCwsLCwsCDAAADAMDAwMDAwMDAwMDBQwAAAAMDAwMDAwMDAwMDAwAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIAB
+        AACAAQAAgAEAAMADAAD//wAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/5kAR/+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AEcAAAAAAAAAAP+ZAP//5eX//+Xl///l5f//5eX//+Pj///g4P//3t7//9vb///X1///1NT//8/P///M
+        zP//mQD/AAAAAAAAAAD/mQD//+rq///q6v//6ur//+rq///m5v//5eX//+Hh///e3v//29v//9bW///S
+        0v//z8///5kA/wAAAAAAAAAA/5kA///w8P//8PD///Dw///u7v//7Oz//+jo///l5f//4eH//97e///Z
+        2f//1tb//9HR//+ZAP8AAAAAAAAAAP+ZAP//9fX///X1///19f//8/P///Dw///u7v//6Oj//+Xl///g
+        4P//3Nz//9fX///S0v//mQD/AAAAAAAAAAD/mQD///v7///7+///+/v///n5///19f//8PD//+zs///m
+        5v//4+P//97e///Z2f//1NT//5kA/wAAAAAAAAAA/5kA///////////////////9/f//+fn///Pz///u
+        7v//6ur//+Xl///g4P//29v//9bW//+ZAP8AAAAAAAAAAP+ZAP////////////////////////v7///1
+        9f//8PD//+rq///l5f//4OD//9vb///W1v//mQD/AAAAAAAAAAD/mQD////////////////////////7
+        +///9fX///Dw///q6v//5eX//+Dg///b2///1tb//5kA/wAAAAAAAAAA/5kA////////////////////
+        ////+/v///X1///w8P//6ur//+Xl///g4P//29v//9bW//+ZAP8AAAAAAAAAAP+ZAP/W1tb/1tbW/9bW
+        1v/W1tb/1tPT/9bOzv/Wy8v/1sfH/9bDw//Wv7//1rq6/9a2tv//mQD/AAAAAAAAAAD/mQD//5kA/+uF
+        AP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/3kQD//5kA/wAAAAAAAAAA/5kA///M
+        mf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//609//+ZAP8AAAAAAAAAAP+Z
+        AEf/mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQBHAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD//wAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMAD
+        AAD//wAAKAAAABgAAAAwAAAAAQAIAAAAAACgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A95EAAM+v
+        rwD/rT0A/9DQAP/MmQDPz88A/+joAM/AwADrhQAA/9zcAP/09AD/mQAAz7i4AM/HxwD/7u4A/+LiAP/W
+        1gD/+voA/8zMAM/LywDPs7MA//f3AP/x8QD/6+sA/+XlAP/f3wD/2dkA/9PTAM/ExADPu7sA//39AM+x
+        sQDPzc0Az7a2AP/OzgDPyckAz729AM/CwgD//PwA//n5AP/4+AD/9fUA//PzAP/y8gD/8PAA/+/vAP/s
+        7AD/6uoA/+npAP/n5wD/5uYA/+PjAP/h4QD/4OAA/97eAP/d3QD/29sA/9raAP/X1wD/1dUA/9TUAP/S
+        0gD/zc0A/9HRAP/PzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0N
+        AAAADRo0NDQ0NBo1ETYbOAs7PD0/BSQUDQAADQgyMjIyMggzNBoRNzgLOzw+P0JADQAADRkwMDAwMBkx
+        MjMaETc4CxwSPkEkDQAADS8uLi4uLi8QGTIINBE3ODocPT8FDQAADS0sLCwsLC0uLzAxCBoRGzk7PD5B
+        DQAADQwXFxcXFwwsGC8wMjMaNjgLHD0/DQAADSopExMTKSorLBgvGTI0ERs5OxIdDQAADRMoICAgKBMp
+        KywuEDEzNTY4Ojw+DQAADSABAQEBASATKgwtLxkIGjY4Cxw9DQAADQEBAQEBAQEoKRcsLjAyNBEbCxw9
+        DQAADQEBAQEBAQEgExcsLjAyNBEbCxw9DQAADQEBAQEBAQEgExcsLjAyNBEbCxw9DQAADQEBAQEBAQEg
+        ExcsLjAyNBEbCxw9DQAADQEBAQEBAQEoKRcsLjAyNBEbCxw9DQAADSIHBwcHByIVJQ8eJwkmHw4jFiED
+        DQAADQQNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQAADQYKCgoKCgoKCgoKCgoKCgoKCgoCDQAADQYGBgYGBgYG
+        BgYGBgYGBgYGBgYEDQAAAA0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A////AMAAAwCAAAEAgAABAIAAAQCAAAEAgAABAIAA
+        AQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQDAAAMA////AP//
+        /wAoAAAAGAAAADAAAAABACAAAAAAAGAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+Z
+        AEf/mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAEcAAAAAAAAAAP+ZAP//5eX//+bm///m5v//5ub//+bm///m
+        5v//5eX//+Pj///i4v//4eH//9/f///e3v//3Nz//9ra///X1///1dX//9LS///Q0P//zs7//8zM//+Z
+        AP8AAAAAAAAAAP+ZAP//6Oj//+np///p6f//6en//+np///p6f//6Oj//+fn///m5v//5eX//+Li///g
+        4P//3t7//9zc///a2v//19f//9TU///S0v//z8///83N//+ZAP8AAAAAAAAAAP+ZAP//6+v//+zs///s
+        7P//7Oz//+zs///s7P//6+v//+rq///p6f//5+f//+Xl///i4v//4OD//97e///c3P//2dn//9bW///U
+        1P//0dH//87O//+ZAP8AAAAAAAAAAP+ZAP//7+////Dw///w8P//8PD///Dw///w8P//7+///+7u///r
+        6///6en//+jo///m5v//4uL//+Dg///e3v//29v//9nZ///V1f//0tL//9DQ//+ZAP8AAAAAAAAAAP+Z
+        AP//8vL///Pz///z8///8/P///Pz///z8///8vL///Dw///v7///7Oz//+rq///o6P//5eX//+Li///f
+        3///3d3//9ra///X1///1NT//9HR//+ZAP8AAAAAAAAAAP+ZAP//9PT///f3///39///9/f///f3///3
+        9///9PT///Pz///x8f//7+///+zs///p6f//5+f//+Xl///h4f//3t7//9zc///Z2f//1dX//9LS//+Z
+        AP8AAAAAAAAAAP+ZAP//+Pj///n5///6+v//+vr///r6///5+f//+Pj///X1///z8///8fH//+/v///r
+        6///6en//+bm///i4v//39///93d///a2v//1tb//9PT//+ZAP8AAAAAAAAAAP+ZAP//+vr///z8///9
+        /f///f3///39///8/P//+vr///n5///19f//8/P///Dw///u7v//6ur//+fn///j4///4eH//97e///b
+        2///19f//9TU//+ZAP8AAAAAAAAAAP+ZAP///f3//////////////////////////////f3///r6///4
+        +P//9PT///Ly///v7///6+v//+jo///l5f//4eH//97e///c3P//2dn//9XV//+ZAP8AAAAAAAAAAP+Z
+        AP////////////////////////////////////////z8///5+f//9/f///Pz///w8P//7Oz//+np///m
+        5v//4uL//9/f///c3P//2dn//9XV//+ZAP8AAAAAAAAAAP+ZAP//////////////////////////////
+        //////////39///6+v//9/f///Pz///w8P//7Oz//+np///m5v//4uL//9/f///c3P//2dn//9XV//+Z
+        AP8AAAAAAAAAAP+ZAP////////////////////////////////////////39///6+v//9/f///Pz///w
+        8P//7Oz//+np///m5v//4uL//9/f///c3P//2dn//9XV//+ZAP8AAAAAAAAAAP+ZAP//////////////
+        //////////////////////////39///6+v//9/f///Pz///w8P//7Oz//+np///m5v//4uL//9/f///c
+        3P//2dn//9XV//+ZAP8AAAAAAAAAAP+ZAP////////////////////////////////////////z8///5
+        +f//9/f///Pz///w8P//7Oz//+np///m5v//4uL//9/f///c3P//2dn//9XV//+ZAP8AAAAAAAAAAP+Z
+        AP/Pzc3/z8/P/8/Pz//Pz8//z8/P/8/Pz//Pzc3/z8vL/8/Jyf/Px8f/z8TE/8/Cwv/PwMD/z729/8+7
+        u//PuLj/z7a2/8+zs//PsbH/z6+v//+ZAP8AAAAAAAAAAP+ZAP//rT3//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP8AAAAAAAAAAP+ZAP//zJn/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uF
+        AP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/95EA//+ZAP8AAAAAAAAAAP+ZAP//zJn//8yZ///M
+        mf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///M
+        mf//zJn//609//+ZAP8AAAAAAAAAAP+ZAEf/mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAEcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////AP///wDAAAMAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAgAABAIAA
+        AQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAwAADAP///wD///8AKAAAACAAAABAAAAAAQAIAAAA
+        AACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A9I4AAP/AdADZxcUA/609ANKkYAD/3NwA/9CrAOqd
+        KgDu7u4A2dnZAP+1UwD/nAoA/8yZAP/p6QDZuLgA7uDgAP/Q0AD/9PQA64UAANnQ0AD/mQAA9dCrAO7n
+        5wDu2dkA4sfHAP/j4wD/1tYA2b+/AP/6+gD/7+8A2cvLAPuVAADZ1NQA95EAAP/39wD/7OwA7uvrAP/m
+        5gDu4+MA/+DgAO7d3QD/2dkA/9PTANm8vAD//f0A//LyAO7p6QD/3t4A2dbWANnNzQDZx8cA2cPDANm6
+        ugD//v4A//z8AP/7+wD/+fkA//j4AP/29gD/9fUA//PzAP/x8QD/8PAA/+7uAP/t7QDu7e0A/+vrAP/q
+        6gD/6OgA/+fnAP/l5QDu5uYA/+TkAP/i4gD/4eEA/9/fANnY2ADZwMAA/93dAP/b2wDZ0dEA2crKAP/a
+        2gDu3NwA/9jYAP/X1wD/1dUA/9TUAP/S0gD/0dEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAABhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYGAAAWFz9BQUFBQUFBQiVEREUPR0cnSkpLTE0x
+        UFFUCBYAABYZRURERERERERFD0ZHSEgbTCkxB1ErV1hZWxIrFgAAFlVCQkJCQkJCQkIlRA9GJ0gbTCkx
+        B1FWV1ksElQWAAAWKh8fQEBAQEAfH0JCJUVGR0hKTCkxB1RWHFlaURYAABYRPy8+Pj4+Pi8/QB9CQkQP
+        R0gbTClQBytWWCwHFgAAFigTPTw8PDw8PRM+L0BBQkQPR0gbKU0HUVYcWVAWAAAWSTwkOzs7OzskPDwT
+        L0BBQkRGJ0hLKTEHK1ZYMRYAABYYOh45OTk5OR46JDw9PkBBQkVGSBtMTQdRVhwxFgAAFjA5Ljc3Nzc3
+        LjkeOzw9L0BCJQ9HSEspMQcrVzEWAAAWJjcBAQEBAQEBNzgeOzwTLx9CREZIGylNB1RWTRYAABZDAQEB
+        AQEBAQEBNzgeJDw+QEIlDydKTE1QUVYpFgAAFgoBAQEBAQEBAQEBNzk6PBM/H0JFR0hLKVBRVikWAAAW
+        CgEBAQEBAQEBAQEBLh4kPS8fQkRGSBspMQcrTBYAABYKAQEBAQEBAQEBAQE3OTs8PkBCREZIGykxBytM
+        FgAAFgoBAQEBAQEBAQEBATc5Ozw+QEJERkgbKTEHK0wWAAAWCgEBAQEBAQEBAQEBNzk7PD5AQkRGSBsp
+        MQcrTBYAABYKAQEBAQEBAQEBAQE3OTs8PkBCREZIGykxBytMFgAAFgoBAQEBAQEBAQEBATc5Ozw+QEJE
+        RkgbKTEHK0wWAAAWCgEBAQEBAQEBAQEBLh4kPS8fQkRGSBspMQcrTBYAABYLCwsLCwsLCwsLC04yIlIV
+        MyBTNAQ1Tx0tNhAaFgAAFg0WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWAAAWDAICAgICAgICAgIC
+        AgICAgICAgICAgICAgICIRYAABYDFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQjFgAACQ4ODg4ODg4O
+        Dg4ODg4ODg4ODg4ODg4ODg4OAwUJAAAACRYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWCQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////gAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAcAAAAP///////////////8oAAAAIAAAAEAAAAABACAAAAAAAIAQ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+ZAHP/mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kAcwAAAAAAAAAA/5kA//XQ
+        q///8fH//+7u///u7v//7u7//+7u///u7v//7u7//+7u///t7f//7Oz//+vr///r6///6ur//+np///n
+        5///5+f//+bm///k5P//5OT//+Li///h4f//39///97e///d3f//29v//9ra///Qq///mQD/AAAAAAAA
+        AAD/mQD/7tnZ///q6v//6+v//+vr///r6///6+v//+vr///r6///6+v//+rq///p6f//6Oj//+fn///l
+        5f//5eX//+Pj///h4f//4OD//97e///c3P//29v//9nZ///X1///1dX//9TU///R0f//0ND//9nZ//+Z
+        AP8AAAAAAAAAAP+ZAP/u3Nz//+3t///t7f//7e3//+3t///t7f//7e3//+3t///t7f//7e3//+zs///r
+        6///6en//+jo///m5v//5eX//+Pj///h4f//4OD//97e///c3P//29v//9jY///X1///1NT//9PT///Q
+        0P//2tr//5kA/wAAAAAAAAAA/5kA/+7d3f//7+///+/v///w8P//8PD///Dw///w8P//8PD//+/v///v
+        7///7e3//+3t///s7P//6ur//+jo///n5///5eX//+Tk///h4f//4OD//97e///c3P//2tr//9jY///W
+        1v//1NT//9LS///b2///mQD/AAAAAAAAAAD/mQD/7uDg///x8f//8vL///Pz///z8///8/P///Pz///z
+        8///8vL///Hx///w8P//7+///+3t///t7f//6+v//+np///n5///5eX//+Pj///h4f//4OD//93d///c
+        3P//2dn//9jY///V1f//09P//9zc//+ZAP8AAAAAAAAAAP+ZAP/u4+P///T0///19f//9vb///b2///2
+        9v//9vb///b2///19f//9PT///Pz///y8v//8PD//+7u///t7f//6+v//+np///n5///5eX//+Pj///g
+        4P//39///9zc///b2///2Nj//9bW///U1P//3d3//5kA/wAAAAAAAAAA/5kA/+7m5v//9vb///f3///4
+        +P//+Pj///j4///4+P//+Pj///f3///29v//9vb///T0///y8v//8PD//+7u///t7f//6+v//+jo///m
+        5v//5eX//+Li///g4P//3t7//9zc///Z2f//2Nj//9XV///e3v//mQD/AAAAAAAAAAD/mQD/7ufn///5
+        +f//+vr///v7///7+///+/v///v7///7+///+vr///n5///39///9vb///X1///z8///8PD//+7u///t
+        7f//6ur//+jo///l5f//4+P//+Hh///f3///3Nz//9vb///Y2P//1tb//97e//+ZAP8AAAAAAAAAAP+Z
+        AP/u6en///v7///9/f///v7///7+///+/v///v7///7+///9/f//+/v///r6///4+P//9vb///X1///y
+        8v//8PD//+3t///s7P//6en//+fn///l5f//4uL//+Dg///e3v//3Nz//9nZ///X1///3t7//5kA/wAA
+        AAAAAAAA/5kA/+7r6////v7////////////////////////////////////////+/v///Pz///r6///4
+        +P//9vb///T0///y8v//7+///+3t///r6///6Oj//+Xl///j4///4OD//9/f///c3P//2tr//9jY///f
+        3///mQD/AAAAAAAAAAD/mQD/7u3t///////////////////////////////////////////////////+
+        /v///Pz///r6///39///9vb///Pz///w8P//7e3//+zs///p6f//5ub//+Tk///h4f//39///93d///b
+        2///2Nj//+Dg//+ZAP8AAAAAAAAAAP+ZAP/u7u7/////////////////////////////////////////
+        ///////////////+/v//+/v///n5///29v//9PT///Hx///v7///7e3//+rq///n5///5eX//+Li///g
+        4P//3d3//9vb///Y2P//4OD//5kA/wAAAAAAAAAA/5kA/+7u7v//////////////////////////////
+        ///////////////////////////////9/f//+vr///f3///19f//8vL//+/v///t7f//6+v//+jo///l
+        5f//4+P//+Dg///e3v//3Nz//9nZ///h4f//mQD/AAAAAAAAAAD/mQD/7u7u////////////////////
+        //////////////////////////////////////////7+///7+///+Pj///b2///z8///8PD//+3t///r
+        6///6Oj//+Xl///j4///4OD//97e///c3P//2dn//+Hh//+ZAP8AAAAAAAAAAP+ZAP/u7u7/////////
+        /////////////////////////////////////////////////////v7///v7///4+P//9vb///Pz///w
+        8P//7e3//+vr///o6P//5eX//+Pj///g4P//3t7//9zc///Z2f//4eH//5kA/wAAAAAAAAAA/5kA/+7u
+        7v/////////////////////////////////////////////////////////////+/v//+/v///j4///2
+        9v//8/P///Dw///t7f//6+v//+jo///l5f//4+P//+Dg///e3v//3Nz//9nZ///h4f//mQD/AAAAAAAA
+        AAD/mQD/7u7u//////////////////////////////////////////////////////////////7+///7
+        +///+Pj///b2///z8///8PD//+3t///r6///6Oj//+Xl///j4///4OD//97e///c3P//2dn//+Hh//+Z
+        AP8AAAAAAAAAAP+ZAP/u7u7/////////////////////////////////////////////////////////
+        /////v7///v7///4+P//9vb///Pz///w8P//7e3//+vr///o6P//5eX//+Pj///g4P//3t7//9zc///Z
+        2f//4eH//5kA/wAAAAAAAAAA/5kA/+7u7v//////////////////////////////////////////////
+        ///////////////9/f//+vr///f3///19f//8vL//+/v///t7f//6+v//+jo///l5f//4+P//+Dg///e
+        3v//3Nz//9nZ///h4f//mQD/AAAAAAAAAAD/mQD/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ2f/Z2dn/2dnZ/9nZ
+        2f/Z2dn/2dnZ/9nZ2f/Z2Nj/2dbW/9nU1P/Z0dH/2dDQ/9nNzf/Zy8v/2crK/9nHx//ZxcX/2cPD/9nA
+        wP/Zv7//2by8/9m6uv/ZuLj/4sfH//+ZAP8AAAAAAAAAAP+ZAP//nAr//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA/wAAAAAAAAAA/5kA//+1U//0jgD/9I4A//SO
+        AP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SO
+        AP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//uVAP//mQD/AAAAAAAAAAD/mQD//8B0/+uF
+        AP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uF
+        AP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/64UA/+uFAP/rhQD/95EA//+ZAP8AAAAAAAAAAP+Z
+        AMH/zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///M
+        mf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///Mmf//zJn//8yZ///AdP//rT3//5kAwQAA
+        AAAAAAAA/5kAR/+ZAMH/mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+ZAP//mQD//5kA//+Z
+        AMH/mQBHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////4AAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAHAAAAD////////////////KAAAADAAAABgAAAAAQAIAAAA
+        AACACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A8YsAAO66fwDZxcUA76NDAN+oZwD/294A/9CrAO6n
+        IwDu7u4A2dnZAPesUAD/nAoA/MiQAP/n6wDZuLgA7uDgAP/Q0AD/8/YA5n0AANnQ0AD/ogAA5MWYAO7n
+        5wDu2dkA4sfHAP/h5QD/1NgA2b+/AP/5/AD/7fEA2cvLAPuVAADZ1NQA95EAAP/1+QD/6u4A7uvrAP/l
+        6ADu4+MA/97jAO7d3QD/2NsA/9PTANm8vAD//P8A//D0AO7p6QD/3OEA2dbWANnNzQDZx8cA2cPDANm6
+        ugD//v8A//v+AP/6/QD/+fkA//f6AP/0+AD/9PcA//L1AP/w8wD/7/IA/+3wAP/s7wDu7e0A/+juAP/p
+        7AD/6OgA/+bpAP/l5QDu5uYA/+PmAP/h5AD/4OMA/9/fANnY2ADZwMAA/93dAP/a3QDZ0dEA2crKAP/Z
+        3ADu3NwA/dnWAP/U2gD919MA/9PWAP/S0gD/0dEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkWFhYWFhYWFhYWFhYWFhYWFhYW
+        FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYJAAAACQwODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4O
+        AwMDAwMDAwMDAwMMCQAAFgMuJCQ7PDwkPTwTEz0+Ey8/L0AfH0FCJSVERQ9HJ0obS0wxMVFRVlZYWVcD
+        FgAAFgM5Ly8vLy8/P0BAHx9BQUJCJURERQ9GRkcnSEobTCkxUAdUK1YcWCxaElgDFgAAFgM4Pj4+Pj4v
+        Ly8/P0BAH0FBQiVEREUPRkZHJ0hKG0wpMVBRVFZXHFksWxwDFgAAFgMuPT09ExMTPj4vLy8/QB8fQUFC
+        JURFD0ZGRydISktMKTFQUVRWHFgsWlgDFgAAFgMuPDw8PT09PRMTPi8vLz9AH0FBQiVEREVGRkcnSBtL
+        TE0xB1FUVhxYLFYDFgAAFgM3JCQkJDw8PD09ExM+Ly8/QB8fQUIlRERFRkZHJ0gbTClNUAdUK1ccWVcD
+        FgAAFgMBOzs7OzskJDw8PT0TEz4vLz9AH0FCJURED0ZGJ0gnG0wpMVBRVFYcWFYDFgAAFgMBHh46Ojo7
+        OzskJDw9PRM+Ly8/QB9BQiVERQ9GRydIShtMTTEHUStWHCsDFgAAFgMBOTk5OR4eOjo7OyQ8PD0TPj4v
+        P0AfQUIlREUPRkcnSBtLKTFQUVRWHFQDFgAAFgMBODg4ODk5OR46Ojs7JDw9PRM+Lz9AH0FCJURFD0ZH
+        SEgbTCkxUFErVgcDFgAAFgMBNzcuLi44ODk5Hjo7OyQ8PT0TPi8/QB9BQkRED0ZHJ0hKSylNUFFUVlED
+        FgAAFgMBAQEBNzc3Ljg4OTkeOjskPD09Ez4vPx9BQSVERQ9GRydIG0wpMVBRKwcDFgAAFgMBAQEBAQEB
+        NzcuODk5Hjo7JDw9PT4vL0AfQUIlREVGRidISkspTVBRVDEDFgAAFgMBAQEBAQEBAQE3Ljg4OR46OyQ8
+        PRM+Lz9AH0FCREUPRkcnJxtMKTEHVDEDFgAAFgMBAQEBAQEBAQEBATcuODkeOjskPD0TPi8/H0FCJURF
+        RkYnSBtLKTFQUSkDFgAAFgMBAQEBAQEBAQEBAQE3Ljg5Hjo7JDw9Ey8vQB9BQkRFD0ZHSCcbTE1QBykD
+        FgAAFgMBAQEBAQEBAQEBAQEBNy44OR47Ozw9Ez4vP0BBQiVERUZHJ0gbTCkxB0wDFgAAFgMBAQEBAQEB
+        AQEBAQEBATc4OTk6OyQ8PRMvL0AfQUJERQ9GJ0hKSykxUEwDFgAAFgMBAQEBAQEBAQEBAQEBAQEuODke
+        OjskPRM+Lz8fQUIlRA9GRycnG0xNUCkDFgAAFgMBAQEBAQEBAQEBAQEBAQE3Ljg5OjskPD0TLz9AQUEl
+        REVGRydIG0wpMUsDFgAAFgMBAQEBAQEBAQEBAQEBAQEBNzg5Hjo7PD0TPi9AH0FCREUPRidIG0wpMRsD
+        FgAAFgMBAQEBAQEBAQEBAQEBAQEBNy44OTo7JDw9Pi8/H0FCJUQPRkdISkspMRsDFgAAFgMBAQEBAQEB
+        AQEBAQEBAQEBATc4OR47JDw9Ey8/QEFCJUQPRkcnJxtMTRsDFgAAFgMBAQEBAQEBAQEBAQEBAQEBATcu
+        OR46Ozw9Ez4vQB9BJURFRkcnSBtMTRsDFgAAFgMBAQEBAQEBAQEBAQEBAQEBATcuODk6OyQ9Ez4vQB9B
+        JURFRkcnSBtMKUoOFgAAFgMBAQEBAQEBAQEBAQEBAQEBAQEuODk6OyQ8PT4vPx9BQkRFD0YnSBtMKUoO
+        FgAAFgMBAQEBAQEBAQEBAQEBAQEBAQE3ODkeOyQ8PT4vPx9BQkRFD0YnSBtMKUoOFgAAFgMBAQEBAQEB
+        AQEBAQEBAQEBAQE3ODkeOyQ8PT4vPx9BQkRFD0YnSBtMKUoOFgAAFgMBAQEBAQEBAQEBAQEBAQEBAQEB
+        AQEBATcuLjg5HjskPBM+Lz9BQUQPD0QOFgAAFhcDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDBgYGBgYDFgAAFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYW
+        FgAAFiEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhFgAAFiMCAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIjFgAAFgIUFBQUFBQUFBQUFBQUFBQUFBQU
+        FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQCFgAAFgUGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYG
+        BgYGBgYGBgYGBgYFFgAACQMODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4D
+        CQAABgMOVlhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYVg4DBgAAAAYJFhYWFhYW
+        FhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFgkGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP//
+        /////wAA////////AAD///////8AAMAAAAAAAwAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAMAAAAAAAwAA////////AAD///////8AAP//
+        /////wAA////////AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+1ACb/pwDM/6QA//+j
+        AP//owD//6MA//+jAP//pAD//6QA//+kAP//pAD//6QA//+kAP//pAD//6QA//+kAP//pAD//6QA//+k
+        AP//pAD//6QA//+kAP//pAD//6QA//+kAP//pAD//6QA//+kAP//pAD//6QA//+kAP//pQD//6UA//+l
+        AP//pQD//6UA//+lAP//pQD//6UA//+lAP//pQD//6UA//+lAP//pgD//6cAzP+1ACYAAAAAAAAAAP+n
+        AMzvq07//9Gb///Ok///zpP//8+T///Pk///z5P//82T///Nk///zpP//86U///Mkv//zJL//82T///L
+        kf//y5L//8uQ///MkP//ypH//8mP///Jj///ypD//8iO///Ijf//yY7//8aM///Hjf//xYv//8aK///D
+        if//xIn//8KI///Dh///wYf//8CG//+/hP//voT//72D//+8gv//vIH//7qA//+6gP//uoT//61R//+n
+        AMwAAAAAAAAAAP+mAP/kuIH///r////0+///9Pv///X7///z+f//8/n///T6///y+P//8vn///H3///x
+        9///8vj///D2///x9///7/X//+70///u9f//7fP//+zy///s8///6/H//+rw///p7///6fD//+ju///n
+        7f//5uz//+Tq///j6f//4ef//+Dm///f5f//3uT//9vi///b4f//2N7//9je///V2///1Nv//9LY///R
+        1///0d3//7qC//+mAP8AAAAAAAAAAP+lAP/kt33///j+///y8v//8vL///Ly///y8v//8vL///Hx///x
+        8f//8PD///Dw///v7///7+///+7u///u7v//7e3//+3t///s7P//6+v//+vr///q6v//6en//+jo///o
+        6P//5+f//+bm///l5f//5OT//+Pj///h4f//4OD//97e///d3f//3Nz//9ra///Z2f//2Nj//9bW///V
+        1f//09P//9LS///Q0P//0dj//7l///+lAP8AAAAAAAAAAP+lAP/kt3z///n////z8///8/P///Pz///z
+        8///8/P///Ly///y8v//8vL///Hx///x8f//8PD///Dw///v7///7u7//+7u///t7f//7Oz//+vr///r
+        6///6ur//+np///o6P//6Oj//+fn///m5v//5eX//+Tk///j4///4eH//+Dg///e3v//3d3//9vb///a
+        2v//2Nj//9fX///W1v//1NT//9PT///R0f//0tn//7qA//+lAP8AAAAAAAAAAP+lAP/kuH7///v////1
+        9f//9fX///X1///09P//9PT///T0///z8///8/P///Ly///y8v//8vL///Hx///w8P//7+///+/v///u
+        7v//7u7//+3t///s7P//6+v//+rq///p6f//6Oj//+jo///n5///5ub//+Xl///k5P//4uL//+Hh///g
+        4P//3t7//93d///b2///2tr//9jY///W1v//1dX//9PT///S0v//0tj//7qA//+lAP8AAAAAAAAAAP+l
+        AP/kuX3///z////29v//9vb///b2///19f//9fX///X1///19f//9PT///T0///z8///8vL///Ly///y
+        8v//8fH///Dw///v7///7u7//+7u///t7f//7Oz//+vr///r6///6ur//+jo///o6P//5+f//+bm///l
+        5f//4+P//+Li///h4f//39///97e///c3P//29v//9ra///Y2P//1tb//9XV///T0///1Nv//7uB//+l
+        AP8AAAAAAAAAAP+lAP/kuX7///3////39///9/f///f3///39///9vb///b2///29v//9fX///X1///0
+        9P//9PT///Pz///y8v//8vL///Hx///w8P//7+///+/v///u7v//7e3//+zs///r6///6+v//+rq///o
+        6P//6Oj//+fn///m5v//5eX//+Pj///h4f//4OD//9/f///d3f//3Nz//9ra///Z2f//19f//9bW///U
+        1P//1Nr//7yB//+lAP8AAAAAAAAAAP+lAP/kuoD///7////4+P//+Pj///j4///4+P//+Pj///f3///3
+        9///9vb///b2///19f//9fX///T0///09P//8/P///Ly///y8v//8fH///Dw///v7///7u7//+3t///s
+        7P//6+v//+vr///p6f//6Oj//+jo///m5v//5eX//+bm///j4///4eH//+Dg///e3v//3d3//9vb///a
+        2v//2Nj//9bW///V1f//1dv//7yC//+lAP8AAAAAAAAAAP+lAP/ku4H////////6+v//+vr///n5///5
+        +f//+fn///j4///4+P//+Pj///f3///39///9vb///X1///19f//9PT///Pz///y8v//8vL///Hx///w
+        8P//7+///+7u///t7f//7Oz//+vr///q6v//6en//+jo///n5///5ub//+Xl///k5P//4+P//+Hh///f
+        3///3t7//9zc///b2///2dn//9jY///W1v//1tz//72D//+lAP8AAAAAAAAAAP+lAP/kvYD////////7
+        +///+/v///v7///7+///+vr///r6///5+f//+fn///j4///4+P//9/f///b2///29v//9fX///T0///z
+        8///8/P///Ly///x8f//8PD//+/v///u7v//7e3//+zs///r6///6ur//+np///o6P//5+f//+bm///l
+        5f//4+P//+Li///g4P//3t7//93d///b2///2tr//9jY///W1v//193//72D//+lAP8AAAAAAAAAAP+l
+        AP/kvID////////8/P///Pz///z8///8/P//+/v///v7///7+///+vr///n5///5+f//+Pj///j4///3
+        9///9vb///X1///19f//9PT///Pz///y8v//8fH///Dw///v7///7u7//+3t///s7P//6+v//+rq///p
+        6f//6Oj//+fn///l5f//5eX//+Pj///h4f//4OD//97e///d3f//29v//9nZ///Y2P//2d///72D//+l
+        AP8AAAAAAAAAAP+lAP/kvoP////////+/v///v7///39///9/f///f3///z8///8/P//+/v///v7///6
+        +v//+fn///j4///4+P//9/f///b2///19f//9fX///T0///z8///8vL///Hx///w8P//7+///+7u///t
+        7f//6+v//+vr///p6f//6Oj//+fn///m5v//5eX//+Tk///i4v//4OD//9/f///d3f//29v//9ra///Y
+        2P//2N7//76E//+lAP8AAAAAAAAAAP+lAP/kvYP////////////////////////+/v///v7///7+///9
+        /f///Pz///z8///7+///+/v///r6///5+f//+Pj///f3///29v//9fX///X1///09P//8/P///Ly///x
+        8f//7+///+7u///u7v//7Oz//+vr///q6v//6en//+jo///n5///5ub//+Xl///j4///4eH//+Dg///e
+        3v//3d3//9vb///Z2f//2d///7+E//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////
+        ///////////////+/v///v7///39///8/P//+/v///v7///6+v//+fn///j4///39///9vb///X1///1
+        9f//8/P///Ly///y8v//8PD//+/v///u7v//7e3//+zs///r6///6ur//+jo///o6P//5ub//+Xl///k
+        5P//4uL//+Dg///f3///3d3//9vb///a2v//2uH//7+E//+lAP8AAAAAAAAAAP+lAP/kvYL/////////
+        //////////////////////////////////////////7+///9/f///Pz///z8///7+///+vr///n5///4
+        +P//9/f///b2///19f//9PT///Pz///y8v//8fH///Dw///v7///7u7//+3t///r6///6ur//+np///o
+        6P//5+f//+bm///m5v//4+P//+Hh///g4P//3t7//9zc///a2v//2+L//7+F//+lAP8AAAAAAAAAAP+l
+        AP/kvYL//////////////////////////////////////////////////////////////v7///39///8
+        /P//+/v///r6///5+f//+Pj///f3///29v//9fX///T0///z8///8vL///Hx///v7///7u7//+3t///s
+        7P//6+v//+rq///o6P//6Oj//+bm///l5f//4+P//+Li///g4P//3t7//93d///b2///3eP//8CG//+l
+        AP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////////////////////
+        //////////7+///9/f///Pz///v7///6+v//+fn///j4///39///9vb///X1///09P//8vL///Ly///w
+        8P//7+///+7u///t7f//6+v//+rq///p6f//6Oj//+fn///l5f//5ub//+Pj///h4f//39///93d///c
+        3P//3OP//8CG//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////
+        ///////////////////////////////+/v///f3///z8///7+///+vr///j4///4+P//9vb///X1///0
+        9P//8/P///Ly///x8f//8PD//+7u///t7f//7Oz//+vr///q6v//6Oj//+fn///m5v//5eX//+Pj///h
+        4f//4OD//97e///c3P//3uT//8CG//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////
+        /////////////////////////////////////////////////////v7///z8///7+///+/v///n5///4
+        +P//9/f///b2///19f//9PT///Ly///y8v//8PD//+/v///u7v//7e3//+vr///q6v//6en//+jo///m
+        5v//5eX//+Tk///i4v//4OD//97e///d3f//3uT//8GH//+lAP8AAAAAAAAAAP+lAP/kvYL/////////
+        //////////////////////////////////////////////////////////////////////////39///8
+        /P//+/v///r6///5+f//+Pj///f3///19f//9PT///Pz///y8v//8fH//+/v///u7v//7e3//+zs///r
+        6///6en//+jo///n5///5ub//+bm///j4///4eH//9/f///d3f//3eT//8GH//+lAP8AAAAAAAAAAP+l
+        AP/kvYL/////////////////////////////////////////////////////////////////////////
+        //////////7+///9/f///Pz///v7///5+f//+Pj///f3///29v//9fX///T0///y8v//8fH///Dw///u
+        7v//7u7//+zs///r6///6ur//+jo///n5///5ub//+Xl///j4///4eH//+Dg///e3v//3+X//8GH//+l
+        AP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////////////////////
+        ///////////////////////////////+/v///Pz///v7///6+v//+fn///j4///29v//9fX///T0///z
+        8///8vL///Dw///v7///7u7//+3t///r6///6ur//+np///o6P//5ub//+Xl///j4///4eH//+Dg///e
+        3v//4Ob//8OH//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////
+        ///////////////////////////////////////////////+/v///f3///z8///7+///+fn///j4///3
+        9///9vb///X1///z8///8vL///Hx///v7///7u7//+3t///s7P//6+v//+np///o6P//5+f//+Xl///k
+        5P//4uL//+Dg///e3v//4Ob//8KH//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////
+        /////////////////////////////////////////////////////////////////////v7///z8///7
+        +///+vr///j4///39///9vb///X1///09P//8vL///Hx///w8P//7u7//+3t///s7P//6+v//+np///o
+        6P//5+f//+bm///m5v//4+P//+Hh///f3///4Ob//8KH//+lAP8AAAAAAAAAAP+lAP/kvYL/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////v7///39///7+///+vr///n5///4+P//9vb///X1///09P//8/P///Ly///w8P//7+///+7u///s
+        7P//6+v//+rq///o6P//5+f//+bm///l5f//4+P//+Hh///f3///3+b//8KH//+lAP8AAAAAAAAAAP+l
+        AP/kvYL/////////////////////////////////////////////////////////////////////////
+        /////////////////////v7///39///8/P//+/v///n5///4+P//9/f///X1///09P//8/P///Ly///w
+        8P//7+///+7u///s7P//6+v//+rq///o6P//5+f//+bm///l5f//4+P//+Hh///g4P//4ef//8KI//+l
+        AP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////////////////////
+        //////////////////////////////////////////39///8/P//+/v///n5///4+P//9/f///b2///1
+        9f//8/P///Ly///x8f//7+///+7u///t7f//6+v//+rq///p6f//6Oj//+bm///l5f//4+P//+Hh///g
+        4P//4ef//8KI//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////////////////////
+        //////////////////////////////////////////////////////////7+///8/P//+/v///r6///4
+        +P//9/f///b2///19f//8/P///Ly///x8f//7+///+7u///t7f//6+v//+rq///p6f//6Oj//+bm///l
+        5f//4+P//+Hh///g4P//4ef//8KI//+lAP8AAAAAAAAAAP+lAP/kvYL/////////////////////////
+        //////////////////////////////////////////////////////////////////////////7+///8
+        /P//+/v///r6///4+P//9/f///b2///19f//8/P///Ly///x8f//7+///+7u///t7f//6+v//+rq///p
+        6f//6Oj//+bm///l5f//4+P//+Hh///g4P//4ef//8KI//+lAP8AAAAAAAAAAP+lAP/lvoX/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////+/////f////z////7////+f////j+///3/f//9fv///T6///z
+        +f//8ff///D2///u9f//7vT//+vx///r8f//6O7//+bs///l7P//5fH//8SM//+lAP8AAAAAAAAAAP+m
+        AP/kxZj/5b+F/+S9gv/kvYL/5L2C/+S9gv/kvYL/5L2C/+S9gv/kvYL/5L2C/+S9gv/kvYL/5L2C/+S9
+        gv/kvYL/5L2C/+S9gv/kvYP/5L6D/+S8gP/kvYH/5LuB/+S6gP/kuX//5Lp9/+S4fv/kt3z/5Lh9/+S2
+        fP/ktXr/5LZ7/+S0ev/ks3j/5LR3/+SyeP/ksXb/5LF3/+Swdv/kr3T/5K5z/+SvdP/krnP/466C//+m
+        AP8AAAAAAAAAAP+oAP//lwD//5YA//+WAP//lgD//5YA//+WAP//lgD//5YA//+WAP//lgD//5YA//+W
+        AP//lgD//5YA//+WAP//lgD//5YA//+WAP//lgD//5YA//+WAP//lwD//5cA//+XAP//lwD//5cA//+X
+        AP//lwD//5cA//+XAP//lwD//5cA//+XAP//lwD//5cA//+YAP//mAD//5gA//+YAP//mAD//5gA//+Y
+        AP//mAD//5gA//+oAP8AAAAAAAAAAP+pAP/8lgD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qU
+        AP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qU
+        AP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qUAP/6lAD/+pQA//qU
+        AP/6lAD/+pQA//qUAP/6lAD//JYA//+pAP8AAAAAAAAAAP+qAP/3kQD/8IoA//CKAP/wigD/8IoA//CK
+        AP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CK
+        AP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/8IoA//CK
+        AP/wigD/8IoA//CKAP/wigD/8IoA//CKAP/wigD/95EA//+qAP8AAAAAAAAAAP+qAP/yiwD/5X0A/+Z9
+        AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9
+        AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9
+        AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/mfQD/5n0A/+Z9AP/lfQD/8osA//+qAP8AAAAAAAAAAP+o
+        AP/vo0P/4ZtP/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+Kb
+        Tf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+Kb
+        Tf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/im03/4ptN/+KbTf/hm0//76ND//+o
+        AP8AAAAAAAAAAP+mAMzvtnP/57yV/+i6j//ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6
+        jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6
+        jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6jv/ouo7/6LqO/+i6
+        j//nvJX/77Zz//+mAMwAAAAAAAAAAP+wAFv/xGf/+NGf//jky//44sj/+OLI//jiyP/44sj/+OLI//ji
+        yP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//ji
+        yP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//jiyP/44sj/+OLI//ji
+        yP/44sj/+OLI//jky//40Z///8Rn//+wAFsAAAAAAAAAAAAAAAD/sABb/6QAzP+iAP//ogD//6IA//+i
+        AP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+i
+        AP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+iAP//ogD//6IA//+i
+        AP//ogD//6IA//+iAP//ogD//6IA//+iAP//pADM/7AAWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP///////wAA////////
+        AADAAAAAAAMAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAADAAAAAAAMAAP///////wAA////////AAD///////8AAP///////wAA
+</value>
+  </data>
+  <data name="GridTrabajos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;Obra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;Tipo Proyecto&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column11&gt;&lt;Column12 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column12&gt;&lt;Column13 ID="ImpPrevQMatA"&gt;&lt;Caption&gt;Imp. Prev. Mat&lt;/Caption&gt;&lt;DataMember&gt;ImpPrevQMatA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpPrevQMatA&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column13&gt;&lt;Column14 ID="ImpRealMatA"&gt;&lt;Caption&gt;Imp. Real Mat&lt;/Caption&gt;&lt;DataMember&gt;ImpRealMatA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealMatA&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column14&gt;&lt;Column15 ID="ImpPrevQModA"&gt;&lt;Caption&gt;Imp. Prev. Mod&lt;/Caption&gt;&lt;DataMember&gt;ImpPrevQModA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpPrevQModA&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column15&gt;&lt;Column16 ID="ImpRealModA"&gt;&lt;Caption&gt;Imp. Real Mod&lt;/Caption&gt;&lt;DataMember&gt;ImpRealModA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealModA&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column16&gt;&lt;Column17 ID="ImpPrevQCentrosA"&gt;&lt;Caption&gt;Imp. Prev. Centros&lt;/Caption&gt;&lt;DataMember&gt;ImpPrevQCentrosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpPrevQCentrosA&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column17&gt;&lt;Column18 ID="ImpRealCentrosA"&gt;&lt;Caption&gt;Imp. Real Centros&lt;/Caption&gt;&lt;DataMember&gt;ImpRealCentrosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealCentrosA&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column18&gt;&lt;Column19 ID="ImpPrevQGastosA"&gt;&lt;Caption&gt;Imp. Prev. Gastos&lt;/Caption&gt;&lt;DataMember&gt;ImpPrevQGastosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpPrevQGastosA&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column19&gt;&lt;Column20 ID="ImpRealGastosA"&gt;&lt;Caption&gt;Imp. Real Gastos&lt;/Caption&gt;&lt;DataMember&gt;ImpRealGastosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealGastosA&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column20&gt;&lt;Column21 ID="ImpPrevQVariosA"&gt;&lt;Caption&gt;Imp. Prev. Varios&lt;/Caption&gt;&lt;DataMember&gt;ImpPrevQVariosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpPrevQVariosA&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column21&gt;&lt;Column22 ID="ImpRealVariosA"&gt;&lt;Caption&gt;Imp. Real Varios&lt;/Caption&gt;&lt;DataMember&gt;ImpRealVariosA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealVariosA&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column22&gt;&lt;Column23 ID="IDObraPadre"&gt;&lt;Caption&gt;IDObraPadre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridMateriales_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;Obra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;Tipo Proyecto&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDMaterial"&gt;&lt;Caption&gt;Material&lt;/Caption&gt;&lt;DataMember&gt;IDMaterial&lt;/DataMember&gt;&lt;Key&gt;IDMaterial&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="DescMaterial"&gt;&lt;Caption&gt;Desc. Material&lt;/Caption&gt;&lt;DataMember&gt;DescMaterial&lt;/DataMember&gt;&lt;Key&gt;DescMaterial&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Fecha"&gt;&lt;Caption&gt;Fecha&lt;/Caption&gt;&lt;DataMember&gt;Fecha&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Fecha&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;/Column13&gt;&lt;Column14 ID="IDProveedor"&gt;&lt;Caption&gt;Proveedor&lt;/Caption&gt;&lt;DataMember&gt;IDProveedor&lt;/DataMember&gt;&lt;Key&gt;IDProveedor&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="DescProveedor"&gt;&lt;Caption&gt;Desc. Proveedor&lt;/Caption&gt;&lt;DataMember&gt;DescProveedor&lt;/DataMember&gt;&lt;Key&gt;DescProveedor&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;/Column15&gt;&lt;Column16 ID="IDTipo"&gt;&lt;Caption&gt;Tipo&lt;/Caption&gt;&lt;DataMember&gt;IDTipo&lt;/DataMember&gt;&lt;Key&gt;IDTipo&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column16&gt;&lt;Column17 ID="IDFamilia"&gt;&lt;Caption&gt;Familia&lt;/Caption&gt;&lt;DataMember&gt;IDFamilia&lt;/DataMember&gt;&lt;Key&gt;IDFamilia&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column17&gt;&lt;Column18 ID="IDSubfamilia"&gt;&lt;Caption&gt;Subfamilia&lt;/Caption&gt;&lt;DataMember&gt;IDSubfamilia&lt;/DataMember&gt;&lt;Key&gt;IDSubfamilia&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column19&gt;&lt;Column20 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;/Column20&gt;&lt;Column21 ID="QReal"&gt;&lt;Caption&gt;C. Real&lt;/Caption&gt;&lt;DataMember&gt;QReal&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;QReal&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column21&gt;&lt;Column22 ID="PrecioRealMatA"&gt;&lt;Caption&gt;Precio Real A&lt;/Caption&gt;&lt;DataMember&gt;PrecioRealMatA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;PrecioRealMatA&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column22&gt;&lt;Column23 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="NFactura"&gt;&lt;Caption&gt;Nº. Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;81&lt;/Width&gt;&lt;/Column24&gt;&lt;Column25 ID="FechaFactura"&gt;&lt;Caption&gt;Fecha Factura&lt;/Caption&gt;&lt;DataMember&gt;FechaFactura&lt;/DataMember&gt;&lt;Key&gt;FechaFactura&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="IDObraPadre"&gt;&lt;Caption&gt;IDObraPadre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column26&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridMod_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;Obra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;Tipo Proyecto&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDOperario"&gt;&lt;Caption&gt;Operario&lt;/Caption&gt;&lt;DataMember&gt;IDOperario&lt;/DataMember&gt;&lt;Key&gt;IDOperario&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="DescOperario"&gt;&lt;Caption&gt;Desc. Operario&lt;/Caption&gt;&lt;DataMember&gt;DescOperario&lt;/DataMember&gt;&lt;Key&gt;DescOperario&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="IDCategoria"&gt;&lt;Caption&gt;Categoría&lt;/Caption&gt;&lt;DataMember&gt;IDCategoria&lt;/DataMember&gt;&lt;Key&gt;IDCategoria&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="Fecha"&gt;&lt;Caption&gt;Fecha&lt;/Caption&gt;&lt;DataMember&gt;Fecha&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Fecha&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;/Column14&gt;&lt;Column15 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column15&gt;&lt;Column16 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column16&gt;&lt;Column17 ID="HorasRealMod"&gt;&lt;Caption&gt;Horas Real&lt;/Caption&gt;&lt;DataMember&gt;HorasRealMod&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;HorasRealMod&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column17&gt;&lt;Column18 ID="HorasViaje"&gt;&lt;Caption&gt;Horas Viaje&lt;/Caption&gt;&lt;DataMember&gt;HorasViaje&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;HorasViaje&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="IDTarea"&gt;&lt;Caption&gt;Tarea&lt;/Caption&gt;&lt;DataMember&gt;IDTarea&lt;/DataMember&gt;&lt;Key&gt;IDTarea&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column19&gt;&lt;Column20 ID="DescTarea"&gt;&lt;Caption&gt;Desc. Tarea&lt;/Caption&gt;&lt;DataMember&gt;DescTarea&lt;/DataMember&gt;&lt;Key&gt;DescTarea&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column20&gt;&lt;Column21 ID="Facturable"&gt;&lt;Caption&gt;Facturable&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Facturable&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Facturable&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;77&lt;/Width&gt;&lt;/Column21&gt;&lt;Column22 ID="Facturado"&gt;&lt;Caption&gt;Facturado&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Facturado&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Facturado&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column22&gt;&lt;Column23 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="NFactura"&gt;&lt;Caption&gt;Nº. Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;81&lt;/Width&gt;&lt;/Column24&gt;&lt;Column25 ID="FechaFactura"&gt;&lt;Caption&gt;Fecha Factura&lt;/Caption&gt;&lt;DataMember&gt;FechaFactura&lt;/DataMember&gt;&lt;Key&gt;FechaFactura&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="IDObraPadre"&gt;&lt;Caption&gt;IDObraPadre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column26&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridCentros_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;Obra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;Tipo Proyecto&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDCentro"&gt;&lt;Caption&gt;Centro&lt;/Caption&gt;&lt;DataMember&gt;IDCentro&lt;/DataMember&gt;&lt;Key&gt;IDCentro&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="DescCentro"&gt;&lt;Caption&gt;Desc. Centro&lt;/Caption&gt;&lt;DataMember&gt;DescCentro&lt;/DataMember&gt;&lt;Key&gt;DescCentro&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Fecha"&gt;&lt;Caption&gt;Fecha&lt;/Caption&gt;&lt;DataMember&gt;Fecha&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Fecha&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;/Column13&gt;&lt;Column14 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column14&gt;&lt;Column15 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column15&gt;&lt;Column16 ID="IDObraPadre"&gt;&lt;Caption&gt;IDObraPadre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridGastos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;IDObra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;IDTipoObra&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDGasto"&gt;&lt;Caption&gt;Gasto&lt;/Caption&gt;&lt;DataMember&gt;IDGasto&lt;/DataMember&gt;&lt;Key&gt;IDGasto&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="DescGasto"&gt;&lt;Caption&gt;Desc. Gasto&lt;/Caption&gt;&lt;DataMember&gt;DescGasto&lt;/DataMember&gt;&lt;Key&gt;DescGasto&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column13&gt;&lt;Column14 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column14&gt;&lt;Column15 ID="Fecha"&gt;&lt;Caption&gt;Fecha&lt;/Caption&gt;&lt;DataMember&gt;Fecha&lt;/DataMember&gt;&lt;DefaultGroupFormatString&gt;d&lt;/DefaultGroupFormatString&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;Fecha&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column15&gt;&lt;Column16 ID="IDObraPadre"&gt;&lt;Caption&gt;Obra Padre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;76&lt;/Width&gt;&lt;/Column16&gt;&lt;Column17 ID="NObraPadre"&gt;&lt;Caption&gt;Proyecto Padre&lt;/Caption&gt;&lt;DataMember&gt;NObraPadre&lt;/DataMember&gt;&lt;Key&gt;NObraPadre&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column17&gt;&lt;Column18 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column18&gt;&lt;Column19 ID="NFactura"&gt;&lt;Caption&gt;Nº. Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Width&gt;81&lt;/Width&gt;&lt;/Column19&gt;&lt;Column20 ID="FechaFactura"&gt;&lt;Caption&gt;Fecha Factura&lt;/Caption&gt;&lt;DataMember&gt;Fecha Factura&lt;/DataMember&gt;&lt;DefaultGroupFormatString&gt;d&lt;/DefaultGroupFormatString&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;FechaFactura&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column20&gt;&lt;Column21 ID="IDMoneda"&gt;&lt;Caption&gt;IDMoneda&lt;/Caption&gt;&lt;DataMember&gt;IDMoneda&lt;/DataMember&gt;&lt;Key&gt;IDMoneda&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column21&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridVarios_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDObra"&gt;&lt;Caption&gt;Obra&lt;/Caption&gt;&lt;DataMember&gt;IDObra&lt;/DataMember&gt;&lt;Key&gt;IDObra&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="NObra"&gt;&lt;Caption&gt;Proyecto&lt;/Caption&gt;&lt;DataMember&gt;NObra&lt;/DataMember&gt;&lt;Key&gt;NObra&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="DescObra"&gt;&lt;Caption&gt;Desc. Proyecto&lt;/Caption&gt;&lt;DataMember&gt;DescObra&lt;/DataMember&gt;&lt;Key&gt;DescObra&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDTrabajo"&gt;&lt;Caption&gt;IDTrabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTrabajo&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;Column4 ID="IDTipoObra"&gt;&lt;Caption&gt;Tipo Proyecto&lt;/Caption&gt;&lt;DataMember&gt;IDTipoObra&lt;/DataMember&gt;&lt;Key&gt;IDTipoObra&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="IDTipoTrabajo"&gt;&lt;Caption&gt;Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDTipoTrabajo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="DescTipoTrabajo"&gt;&lt;Caption&gt;Desc. Tipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTipoTrabajo&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDSubtipoTrabajo"&gt;&lt;Caption&gt;Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;IDSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;IDSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescSubtipoTrabajo"&gt;&lt;Caption&gt;Desc. Subtipo Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescSubtipoTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescSubtipoTrabajo&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CodTrabajo"&gt;&lt;Caption&gt;Trabajo&lt;/Caption&gt;&lt;DataMember&gt;CodTrabajo&lt;/DataMember&gt;&lt;Key&gt;CodTrabajo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="DescTrabajo"&gt;&lt;Caption&gt;Desc. Trabajo&lt;/Caption&gt;&lt;DataMember&gt;DescTrabajo&lt;/DataMember&gt;&lt;Key&gt;DescTrabajo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="IDVarios"&gt;&lt;Caption&gt;Varios&lt;/Caption&gt;&lt;DataMember&gt;IDVarios&lt;/DataMember&gt;&lt;Key&gt;IDVarios&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="DescVarios"&gt;&lt;Caption&gt;Desc. Varios&lt;/Caption&gt;&lt;DataMember&gt;DescVarios&lt;/DataMember&gt;&lt;Key&gt;DescVarios&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;127&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Fecha"&gt;&lt;Caption&gt;Fecha&lt;/Caption&gt;&lt;DataMember&gt;Fecha&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Fecha&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;/Column13&gt;&lt;Column14 ID="ImpQPrevA"&gt;&lt;Caption&gt;Importe Prev.&lt;/Caption&gt;&lt;DataMember&gt;ImpQPrevA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpQPrevA&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column14&gt;&lt;Column15 ID="ImpRealA"&gt;&lt;Caption&gt;Importe Real&lt;/Caption&gt;&lt;DataMember&gt;ImpRealA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpRealA&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column15&gt;&lt;Column16 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;Column17 ID="NFactura"&gt;&lt;Caption&gt;Nº. Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;81&lt;/Width&gt;&lt;/Column17&gt;&lt;Column18 ID="FechaFactura"&gt;&lt;Caption&gt;Fecha Factura&lt;/Caption&gt;&lt;DataMember&gt;FechaFactura&lt;/DataMember&gt;&lt;Key&gt;FechaFactura&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="IDObraPadre"&gt;&lt;Caption&gt;IDObraPadre&lt;/Caption&gt;&lt;DataMember&gt;IDObraPadre&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDObraPadre&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column19&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="CmbEstadoObra_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="Text"&gt;&lt;Caption&gt;Descripción&lt;/Caption&gt;&lt;DataMember&gt;Text&lt;/DataMember&gt;&lt;Key&gt;Text&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="Value"&gt;&lt;Caption&gt;Value&lt;/Caption&gt;&lt;DataMember&gt;Value&lt;/DataMember&gt;&lt;Key&gt;Value&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;BorderStyle&gt;Flat&lt;/BorderStyle&gt;&lt;FlatBorderColor&gt;125, 159, 190&lt;/FlatBorderColor&gt;&lt;ControlStyle&gt;&lt;ButtonAppearance&gt;Flat&lt;/ButtonAppearance&gt;&lt;/ControlStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;DisplayMember&gt;Text&lt;/DisplayMember&gt;&lt;ValueMember&gt;Value&lt;/ValueMember&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+</root>
