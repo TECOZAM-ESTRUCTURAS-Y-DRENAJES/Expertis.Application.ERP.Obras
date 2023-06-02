@@ -9326,6 +9326,38 @@ Public Class MntoObras
         RefreshObra()
         TabObras_Click(TabObras, New System.EventArgs)
         blnRefreshArbol = False
+
+        'David Velasco 22/05/23
+        'Creo un trabajo(si no hay ninguno) para todos los proyectos que se creen para que no haya errores al insertar Partes de Trabajo
+        Dim dt As New DataTable
+        Dim f As New Filter
+        f.Add("IDObra", FilterOperator.Equal, CurrentRow("IDObra"))
+        f.Add("CodTrabajo", FilterOperator.Equal, "PT1")
+        dt = New BE.DataEngine().Filter("tbObraTrabajo", f)
+
+        If dt.Rows.Count >= 1 Then
+        Else
+            Dim aux As New Business.ClasesTecozam.MetodosAuxiliares
+            Dim sql As String
+            Dim codt As String
+            codt = "PT1"
+            Dim IDTrabajo As String
+            IDTrabajo = aux.devuelveAutonumeri
+            sql = "Insert into tbObraTrabajo(IDTrabajo, IDObra, IDTipoObra, IDTipoTrabajo, CodTrabajo, DescTrabajo,Secuencia, Solape, Estado," & _
+            "ImpPrevMatA,ImpPrevModA,ImpPrevCentrosA,ImpPrevGastosA,ImpPrevVariosA,ImpPrevMatB,ImpPrevModB,ImpPrevCentrosB,ImpPrevGastosB,ImpPrevVariosB,ImpPrevTrabajoA,ImpPrevTrabajoB,ImpRealMatA," & _
+            "ImpRealModA,ImpRealCentrosA,ImpRealGastosA,ImpRealVariosA,ImpRealMatB,ImpRealModB,ImpRealCentrosB,ImpRealGastosB,ImpRealVariosB,ImpRealTrabajoA,ImpRealTrabajoB,DuracionPrev,EstadoFactura,AvanceCalculado,AvanceEstimado,ImpPrevMatVentaA,ImpPrevModVentaA,ImpPrevCentrosVentaA,ImpPrevGastosVentaA,ImpPrevVariosVentaA,ImpPrevMatVentaB,ImpPrevModVentaB,ImpPrevCentrosVentaB,ImpPrevGastosVentaB,ImpPrevVariosVentaB,MargenPrevTrabajo,ImpPrevTrabajoVentaA,ImpPrevTrabajoVentaB,MargenRealTrabajo," & _
+            "Facturable,ImpFactGastosB,ImpFactVariosB,ImpFactTrabajoB,ImpFactVariosA,ImpFactTrabajoA,MargenRealMat,MargenRealMod,MargenRealCentros,MargenRealGastos,MargenRealVarios,TipoFacturacion,ImpFactMatB,ImpFactModB,ImpFactCentrosB,IDCentroGestion,IDArticulo,MargenPrevMat,MargenPrevMod,MargenPrevCentros,MargenPrevGastos,MargenPrevVarios,ImpFactMatA," & _
+            "ImpFactModA,ImpFactCentrosA,ImpFactGastosA,CContable,FechaCreacionAudi,FechaModificacionAudi,UsuarioAudi,IDUdMedida,QPrev,QReal,QFact,ImpPrevQTrabajoA,ImpPrevQTrabajoB,ImpPrevQTrabajoVentaA,ImpPrevQTrabajoVentaB,ImpRealQTrabajoA,ImpRealQTrabajoB,ImpFactQTrabajoA,ImpFactQTrabajoB,NoAcumular,ImpPrevQMatA,ImpPrevQModA,ImpPrevQCentrosA,ImpPrevQGastosA,ImpPrevQVariosA,ImpPrevQMatVentaA,ImpPrevQModVentaA,ImpPrevQCentrosVentaA,ImpPrevQGastosVentaA,ImpPrevQVariosVentaA,ImpPrevQMatB,ImpPrevQModB,ImpPrevQCentrosB,ImpPrevQGastosB,ImpPrevQVariosB,ImpPrevQMatVentaB,ImpPrevQModVentaB," & _
+            "ImpPrevQCentrosVentaB,ImpPrevQGastosVentaB,ImpPrevQVariosVentaB,QTotalCertificada,Nivel,ListaMaterial,IDOrigen,TipoFactAlquiler,TipoCosteDI,TipoLinea,FianzaCompensada,Traspasada,PlanificarRecursosPorTareas,ImpTrabajoVentaConceptoA,ImpQTrabajoConceptoA,ImpQTrabajoVentaConceptoA,Inversion,Periodificable)" & _
+            "Values('" & IDTrabajo & "','" & CurrentRow("IDObra") & "','" & CurrentRow("IDTipoObra") & "','PT','" & codt & "', 'PARTES DE TRABAJO',10, 0, 0, " & _
+            "0,0,0,0,0,0,0,0,0,0,0,0,0," & _
+            "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," & _
+            "1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,'" & "008" & "','" & "PROY" & "',0,0,0,0,0,0," & _
+            "0,0,0,7050000000, '" & DateTime.Now & "', '" & DateTime.Now & "', '" & ExpertisApp.UserName & "',00,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0," & _
+            "0,0,0,0,0,1,'" & IDTrabajo & "',0,0,0,0,0,0,0,0,0,0,0)"
+            aux.EjecutarSql(sql)
+        End If
+        Me.RequeryData()
     End Sub
 
     Protected Overridable Sub EjercicioPredeterminado()
